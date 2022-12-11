@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/email.css">
+
+<head>
+	<link rel="icon" type="image/x-icon" href="./immagini/Mail_icon.png">
+	<title>Contact me</title>
+</head>
+
+<body>
+	<div class="container">
+		<form onsubmit="sendEmail(); reset(); return false;">
+			<h3>Contact me</h3>
+			<input type="text" id="name" placeholder="Your Name" required>
+			<input type="email" id="email" placeholder="Email Adress" required>
+			<input type="text" id="subject" placeholder="Subject (optional)">
+			<textarea id="message" rows="10" placeholder="Message"></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+
+	<form action="https://formsubmit.co/your@email.com" method="POST">
+     	<input type="text" name="name" required>
+     	<input type="email" name="email" required>
+     	<input type="text" name="subject">
+     	<textarea name="message" rows="15" required></textarea>
+    	<button type="submit">Send</button>
+	</form>
+
+
+	<!--<script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript">
+		function sendEmail(){
+			Email.send({
+			    Host : "smtp.gmail.com",
+			    Username : "vlad.working01@gmail.com",
+			    Password : "Vlad2701",
+			    To : 'vlad.amb01@gmail.com',
+			    From : document.getElementById("email").value,
+			    Subject : "New Message from site",
+			    Body : "And this is the body"
+			}).then(
+			  message => alert(message)
+			);
+		}
+	</script> -->
+</body>
+</html>
