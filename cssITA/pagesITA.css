@@ -202,7 +202,7 @@ nav{
 
 nav ul{
 	float: right;
-	margin-right: 735px;
+	margin-right: 555px;
 }
 
 nav ul li{
@@ -315,6 +315,7 @@ a.active, a:hover{
   	max-width: 1300px;
   	font-family: 'Raleway', sans-serif;
 }
+
 
 .active, .accordion:hover {
   color: yellow; 
