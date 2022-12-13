@@ -62,11 +62,3 @@ form button{
 	border-radius: 30px;
 	font-family: 'Open Sans', sans-serif;
 }
-
-form button #send:active{
-	animation: fadeEffect 1s;
-}
-
-form button #sec{
-	opacity: 0.7;
-}
