@@ -14,7 +14,7 @@
 
 	<body>
 		<nav class="sticky">
-			<ul>
+			<ul id ="navi">
 				<li><a class="active" href="./index.html" >Home</a></li>
 				<li id="separ" style="margin: 0;">I</li>
 				<li><a class=""href="./AboutPage.html">About</a></li>
@@ -37,10 +37,8 @@
 		<h2>Why choose me</h2>
 		<div class="text">
 		<h4>1. Color correction</h4>
-		<div class = "video">
-			<video width="600" height="350" loop autoplay played muted>
-				<source src="./video/video_color_correction_upWork_conv.mp4" type="video/mp4">
-			</video>
+		<div class = "vid">
+			<video width="700" height="400" autoplay loop muted><source src="./video/video_color_site.mov" type="video/mp4"></video>
 		</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus congue eleifend. Vivamus gravida, nisl sed feugiat varius, sem ipsum pellentesque lacus, et tincidunt nulla sem non libero. Ut semper ante in dui lacinia laoreet. Nam nec sem in urna feugiat vulputate. Proin nec nisl nulla. Aenean nulla erat, sodales ac vestibulum eu, hendrerit nec risus. Morbi non ipsum non est placerat mollis. Aliquam at nisl vitae arcu ullamcorper placerat. Vestibulum dictum neque nunc, in ornare nulla porta in. Cras nec metus sodales, commodo erat eu, pulvinar velit. Aliquam mi est, dictum sit amet tortor ut, porttitor volutpat erat. Praesent nulla enim, dignissim sed facilisis eget, elementum et massa. Donec eu nibh tristique, tempus ante non, efficitur lectus. Curabitur at orci ante. Praesent ullamcorper posuere nisl nec dictum. Pellentesque pellentesque mauris sem, eget pellentesque massa gravida nec.
 		Nulla facilisis euismod placerat. Fusce efficitur condimentum quam, ac bibendum lectus tempor vitae. Nullam efficitur aliquam varius. Nullam pretium massa sit amet enim blandit, eu tincidunt erat pharetra. Proin commodo quam vel nibh venenatis gravida. Praesent justo lorem, gravida nec justo id, pharetra euismod ligula. Aenean fringilla vitae magna ac fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sit amet fringilla dolor, sed sagittis quam. Sed sem purus, viverra a pharetra at, porttitor id orci. Fusce sed rhoncus magna. Curabitur consectetur lacus arcu, ut gravida nunc vestibulum vel. Aenean eleifend ligula ante, at pharetra erat rhoncus eget. Fusce volutpat ligula sit amet maximus lobortis.
@@ -69,26 +67,26 @@
 		</div>
 
 		<h3 style="text-align: center;">Past videos edited</h3>
-		<table style="color:white; text-align: center;margin-left: 300px;">
+		<table style="color:white; text-align: center;margin-left: 50px; border: solid 1px white;">
 			<tr>
-				<td>R1C1</td>
-				<td>R1C2</td>
-				<td>R1C3</td>
-				<td>R1C4</td>
+				<td style="border: solid 1px white;">Intros</td>
+				<!--<td style="border: solid 1px white;"></td>-->
+				<td style="border: solid 1px white;">Reels</td>
+				<!--<td style="border: solid 1px white;"></td>-->
 			</tr>
 			<tr>
-				<td>R2C1</td>
-				<td>R2C2</td>
-				<td>R2C3</td>
-				<td>R2C4</td>
+				<td style="border: solid 1px white;"><video width="500" height="300" autoplay controls><source src="./video/Intro_glow.mp4" type="video/mp4"></video></td>
+				<!--<td style="border: solid 1px white;"></td>-->
+				<td style="border: solid 1px white;"></td>
+				<!--<td style="border: solid 1px white;"></td>-->
 			</tr>
 		</table>
-		<hr style="margin-top: 380px;">
+		<!--<hr>-->
 
-		<h3 style="font-size: 32px; margin-top: 50px; text-align: center;">For any issues</h3>
-		<a href="./ContactPage.html" target="blank"><h5 style="margin-left: 820px; margin-top: 30px; font-size: 20px; margin-right: 820px; text-align: center;" id="but"><b>Contact me via email</b></h5></a>
+		<h3 id="issues">For any issues</h3>
+		<a href="./ContactPage.html" target="blank"><h5 id="but"><b>Contact me via email</b></h5></a>
 
-		<h2 style="text-align: center;margin-top: 20px; margin-bottom: 20px; margin-left: 60px;" id="More">Find More on</h2>
+		<h2 id="More">Find More on</h2>
 
 		<div class="social">
 			<ul>
@@ -99,3 +97,5 @@
 		</div>
 	</body>
 </html>
+
+<!--style="margin-left: 120px; margin-top: 30px; font-size: 18px; margin-right: 120px; text-align: left;"

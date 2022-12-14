@@ -29,6 +29,8 @@ form h3{
 	color: #FFD700;
 	font-weight: 800;
 	margin-bottom: 20px;
+	font-family: 'Martian Mono', monospace;
+	font-size: 30px;
 }
 
 form input, form textarea{
@@ -52,4 +54,5 @@ form button{
 	width: 150px;
 	margin: 20px auto 0;
 	border-radius: 30px;
+	font-family: 'Open Sans', sans-serif;
 }
