@@ -228,13 +228,14 @@ table{
 		color: white;
 		font-family: cursive; "Lucida Handwriting";
 		text-indent: 450px;
+		margin-right: -295px;
 	}
 	h6{
 		text-align: center;
 		color: white;
 		font-family: 'Unbounded', cursive;
-		text-indent: 340px;
-		margin-right: -105px;
+		text-indent: 440px;
+		margin-right: -395px;
 		font-size: 12px;
 
 	}
@@ -280,7 +281,7 @@ table{
 
 	img{
 
-		width: 1065px;
+		width: 1265px;
 		height: 500px;
 		margin: -10px;
 		opacity: 0.4;
@@ -331,21 +332,22 @@ table{
 		border-color: black;
 	}
 
-		nav ul{
-		float: right;
-		margin-right: 735px;
+	nav ul{
+		float: left;
+		margin-right: 400px;
 	}
 
 	nav ul li{
 		display: inline-block;
 		line-height: 50px;
-		margin: 0 50px;
+		margin: 0 15px;
+
 	}
 
 	nav ul li a{
 		color: white;
-		font-size: 20px;
-		padding: 11 35px;
+		font-size: 16px;
+		padding: 11 10px;
 		border-radius: 10px;
 		font-family: monospace;
 
@@ -385,7 +387,7 @@ table{
 	}
 
 	.social ul{
-		margin-left: 230px;
+		margin-left: 310px;
 		margin-right: -450px;
 	}
 	.social ul li{
@@ -399,15 +401,15 @@ table{
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 200px;
+	margin-left: 370px;
 	}
 
 	#but{
 	border: 1px solid #FFD700;
 	border-radius: 40px;
 	/*margin-right: 406px;*/
-	margin-left: 386px;
-	margin-right: 186px;
+	margin-left: 470px;
+	margin-right: 102px;
 	padding: 5px 5px 5px 5px;
 	font-family: 'Kanit', sans-serif;
 	font-size: 18px;
@@ -432,7 +434,7 @@ table{
 		border-left: solid 1px white;
 	}
 	#navi{
-		margin-left: 350px;
+		margin-left: 450px;
 	}
 	table{
 		margin-left: 50px;
@@ -441,11 +443,11 @@ table{
 	font-size: 32px;
 	margin-top: 50px;
 	text-align: center;
-	margin-left: 200px;
+	margin-left: 375px;
 
 	}
 	hr{
 		margin-top: 380px;
-		margin-right: -250px;
+		margin-right: -450px;
 	}
 }
